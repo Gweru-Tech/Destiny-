@@ -1,0 +1,39 @@
+{
+  "name": "ladybug-bot",
+  "version": "1.0.0",
+  "description": "Ladybug WhatsApp Bot - Deployable on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "ladybug",
+    "whatsapp-bot"
+  ],
+  "author": "Ladybug Team",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.7",
+    "@seaavey/baileys": "^1.0.0",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.6.5",
+    "chalk": "^4.1.2",
+    "pino": "^8.19.0",
+    "moment-timezone": "^0.5.45",
+    "file-type": "^16.5.4",
+    "awesome-phonenumber": "^5.4.0",
+    "jimp": "^0.22.10",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
